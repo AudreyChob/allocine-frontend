@@ -1,0 +1,12 @@
+.card{
+    width: 500px;
+    margin : 3%;
+
+}
+#containerSearchBar{
+    display:flex;
+    justify-content: space-between;
+}
+.boutons{
+    margin-left: 80%
+}

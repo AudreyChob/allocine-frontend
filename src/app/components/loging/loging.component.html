@@ -1,0 +1,16 @@
+
+<div class="container">
+            <h2>Connexion : </h2>
+            <label>
+            Email :
+            <input type="text" class="form-control" [(ngModel)]="email">
+            </label>
+            <label>
+            Mot de passe :
+            <input type="text" class="form-control" [(ngModel)]="password">
+            </label>
+            <br>
+            <button type="button" (click)="login()"> Connexion </button>
+            <br>
+            <a [routerLink]='["/inscription"]'> Tu n'as pas encore de compte? Clique ici ! </a>
+</div>

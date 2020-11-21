@@ -1,0 +1,19 @@
+<div class="container">
+    <h2>Modifier un film</h2>
+        <label >
+        <input class="form-control" type="hidden" [(ngModel)]="id">
+        </label>
+        <label>
+        Titre
+        <input class="form-control" type='text' [(ngModel)]="titre">
+        </label>
+        <label>
+        Categorie
+        <input class="form-control" type='text' [(ngModel)]="categorie">
+        </label>
+        <label>
+        Description
+        <input class="form-control" type='text' [(ngModel)]="description">
+        </label>
+        <button type="button" class="btn btn-primary" (click)="editFilm()">Modifier film</button>
+</div>
